@@ -21,5 +21,6 @@ nltk
 
 How to run ?
 Run base.py to train the classifier. Or you can directly run classifier.py with the already trained classifier available in the same directory.
+    
     python base.py
     python classifier.py <test_file>
