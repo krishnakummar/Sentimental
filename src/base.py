@@ -65,7 +65,7 @@ def get_features(directory,file1,file2,all = False):
 	#create a reference word feature
 	word_features = get_word_features(lines)
 
-	if all: #require all 3 lists ( training)
+	if all: #require all 3 lists ( training )
 		return (word_features,lines1,lines2)
 
 	#Classification

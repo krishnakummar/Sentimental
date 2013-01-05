@@ -13,14 +13,14 @@ import time
 def validity(argv):
 	""" Check for valid input """
 	if len(argv) != 2:
-		return [False,"Missing arguments"]
+		return (False,"Missing arguments")
 	try:
-   		with open(sys.argv[1]) as f: 
+   		with open(argv[1]) as f: 
    			pass
 	except IOError as e:
-   		return [False, str(e)]
+   		return (False, str(e))
    	else:
-		return [True]
+		return (True,)
 
 
 def LoadClassifier(name):
